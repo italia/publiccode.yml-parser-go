@@ -112,9 +112,9 @@ func (p *Parser) toURL(file string) *url.URL {
 
 		if err != nil {
 			return nil
-		} else {
-			return u
 		}
+		return u
+		
 	}
 }
 
