@@ -90,9 +90,8 @@ func (p *Parser) toURL(file string) *url.URL {
 	if uri, err := url.ParseRequestURI(file); err == nil {
 		if raw := vcsurl.GetRawFile(uri); raw != nil {
 			return raw
-		} else {
-			return uri
 		}
+		return uri
 	} else {
 		// If file is a relative path, let's try to compute its absolute filesystem path
 		// and remote URL by prepending the base paths, if provided.
