@@ -4,7 +4,7 @@ require (
 	cloud.google.com/go v0.70.0
 	github.com/Jeffail/gabs v1.4.0 // indirect
 	github.com/alranel/go-spdx v0.0.5
-	github.com/alranel/go-vcsurl v0.0.0-20201009104729-56346a70f40a
+	github.com/alranel/go-vcsurl v0.0.0-20210519104607-9d2ece4462ec
 	github.com/dyatlov/go-oembed v0.0.0-20180429203341-4bc5ab7a42e9
 	github.com/go-bindata/go-bindata v3.1.2+incompatible // indirect
 	github.com/go-playground/validator/v10 v10.4.1

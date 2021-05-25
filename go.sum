@@ -43,6 +43,8 @@ github.com/alranel/go-vcsurl v0.0.0-20200922084853-6436e6ad1149 h1:qBoq+LXLgOA+W
 github.com/alranel/go-vcsurl v0.0.0-20200922084853-6436e6ad1149/go.mod h1:tp+e312yiwgu8H4/Ly26J8MevK9lz7BucU4PPlEv0ag=
 github.com/alranel/go-vcsurl v0.0.0-20201009104729-56346a70f40a h1:NiIou8dzFGaIVFfhuBdRiPUqgMpcys1RDADgjB7qrps=
 github.com/alranel/go-vcsurl v0.0.0-20201009104729-56346a70f40a/go.mod h1:tp+e312yiwgu8H4/Ly26J8MevK9lz7BucU4PPlEv0ag=
+github.com/alranel/go-vcsurl v0.0.0-20210519104607-9d2ece4462ec h1:LXSw/QyvpPUZaBusrwZKLd6V33vpLOwA0Luw3QvZTlc=
+github.com/alranel/go-vcsurl v0.0.0-20210519104607-9d2ece4462ec/go.mod h1:hirzJiNVpROHlOvJvzudokyzFNGep5Ujmf3Is3Iv3Cg=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=
 github.com/chzyer/logex v1.1.10/go.mod h1:+Ywpsq7O8HXn0nuIou7OrIPyXbp3wmkHB+jjWRnGsAI=
 github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e/go.mod h1:nSuG5e5PlCu98SY8svDHJxuZscDgtXS6KTTbou5AhLI=
