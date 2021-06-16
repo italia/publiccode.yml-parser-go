@@ -21,7 +21,6 @@ This parser performs syntactic and semantic validation according to the
 - Validate oembed video links and retrieve HTML for easy embedding
 - Validate SPDX licenses. Without WITH keyword.
 - Check tags
-- Strict and non-strict modes (use non-strict when you want to be tolerant, such as in a crawler, but use strict in editors and validators)
 
 ## Example
 
@@ -29,8 +28,8 @@ This parser performs syntactic and semantic validation according to the
 parser := publiccode.NewParser()
 
 // all these settings are optional:
-parser.LocalBasePath = "/path/to/local/clone"
-parser.RemoteBaseURL = "https://raw.githubusercontent.com/gith002/Medusa/master"
+parser.BaseURL = "file:///path/to/local/dir"
+// parser.BaseURL = "https://raw.githubusercontent.com/gith002/Medusa/master"
 parser.DisableNetwork = false
 
 err := parser.ParseRemoteFile(url)
